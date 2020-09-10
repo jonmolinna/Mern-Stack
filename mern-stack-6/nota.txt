@@ -1,0 +1,16 @@
+Back End
+---------------------------------------------
+npm init --yes
+npm install express
+npm install dotenv
+npm install mongoose
+npm install colors
+npm install morgan
+npm install nodemon -D
+npm install concurrently -D
+
+npm run server => para ejecutar
+
+Front End
+-----------------------------------------------
+npm install axios
