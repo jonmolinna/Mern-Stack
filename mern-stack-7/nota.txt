@@ -1,0 +1,53 @@
+Back End
+----------------------------
+npm init --yes
+npm install express
+npm install mongoose
+npm install body-parser
+npm install cookie-parser => analizador de cookies
+npm install nodemon -D
+npm install bcryptgit
+npm install jsonwebtoken
+npm install http-proxy-middleware -D
+npm install concurrently
+
+Front End
+-------------------------------
+npx create-react-app client
+npm install axios
+npm install react-router-dom
+npm install redux
+npm install redux-promise
+npm install redux-thunk
+npm install react-redux
+npm install materialize-css@next
+
+Git
+-------------------------------
+git init => para inicializar
+git status
+git add .
+git commit -m "initial commit"
+
+Para guardar los cambios
+------
+git add .
+git commit -m "Move private informaction into dev.js"
+git push origin master
+
+GitHub
+-------------------------------
+git remote add origin https://github.com/jonmolinna/react-blog.git
+
+Heroku
+--------------------------------
+package.json
+-----------
+"engine": {
+    "node":"12.16.1", // node -v
+    "npm":"6.13.7" // npm -v
+  },
+
+Rutas
+-------------------
+"frontend": "npm run front --prefix client" => --prefix is equals a '../client';
